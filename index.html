@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.staticforms.xyz/submit" method="POST">
+        <input type="hidden" name="accessKey" value="dbe2cc8e-f9e3-4244-877c-fe80fb61f0c6"> 
+
+        <h1 class="titulo"><u>Comente</u></h1>
+        <div class="info">
+            <label for="nome">Digite seu nome</label><br>
+            <input type="text" name="name" id="nome">
+        </div>
+        <div class="info">
+            <label for="email">Digite seu email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="info">
+            <label for="textearea">Comentario</label><br>
+            <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <input type="hidden" name="redirectTo" value="https://tender-mccarthy-9c670f.netlify.app/">
+        <input type="submit" value="Enviar" id="button"/>
+    </form>
+</body>
+</html>
